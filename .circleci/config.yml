@@ -21,7 +21,7 @@ jobs:
 
   deploy_production:
     environment:
-      HEROKU_APP_NAME: workshop-ensi
+      HEROKU_APP_NAME: workshop-cicd-99358
     executor: heroku/default
     steps:
       - checkout
